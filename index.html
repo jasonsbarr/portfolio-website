@@ -6,38 +6,62 @@
 -->
 <html>
 	<head>
-		<title>Fractal by HTML5 UP</title>
+		<title>Jason S. Barr, Software Engineer</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.section-img {
+				min-height: 225px;
+				object-fit: cover;
+				object-position: center;
+			}
+
+			.spotlight {
+				position: relative;
+			}
+
+			.caption {
+				bottom: -1.5rem;
+				font-size: .7rem;
+				left: 0;
+				margin: 0 2rem;
+				position: absolute;
+			}
+
+			#three p {
+				max-width: 70%;
+				margin: 0 auto;
+				text-align: left;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="content">
-					<h1><a href="#">Fractal</a></h1>
-					<p>Just a simple, single page responsive<br />
-					template brought to you by <a href="http://html5up.net">HTML5 UP</a></p>
+					<h1><a href="#">Jason S. Barr</a></h1>
+					<p>Software engineer and web developer.<br />Musician. Father of the millennium.</p>
 					<ul class="actions">
-						<li><a href="#" class="button primary icon fa-download">Download</a></li>
-						<li><a href="#one" class="button icon fa-chevron-down scrolly">Learn More</a></li>
+						<li><a href="mailto:jason@jasonsbarr.com" class="button primary icon fa-envelope">Contact</a></li>
+						<li><a href="#one" class="button icon fa-chevron-down scrolly">About Me</a></li>
 					</ul>
 				</div>
-				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
+				<div class="image phone"><div class="inner"><img src="images/jason-barr-saxophone1.jpg" alt="" /></div></div>
 			</header>
 
 		<!-- One -->
 			<section id="one" class="wrapper style2 special">
 				<header class="major">
-					<h2>Sed ipsum magna lorem tempus amet<br />
-					vehicula et gravida elementum</h2>
+					<h2>I build software that saves you time and money<br />
+					and looks great while doing it.</h2>
 				</header>
 				<ul class="icons major">
-					<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
-					<li><span class="icon fa-refresh"><span class="label">Process</span></span></li>
-					<li><span class="icon fa-cloud"><span class="label">Upload</span></span></li>
+					<li><span class="icon fa-desktop" title="UX Design"><span class="label">UX Design</span></span></li>
+					<li><span class="icon fa-code" title="Code"><span class="label">Code</span></span></li>
+					<li><span class="icon fa-database" title="Data"><span class="label">Data</span></span></li>
 				</ul>
 			</section>
 
@@ -45,27 +69,33 @@
 			<section id="two" class="wrapper">
 				<div class="inner alt">
 					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+						<div class="image"><img src="images/me-square.jpg" alt="Jason Barr" title="Jason Barr" /></div>
 						<div class="content">
-							<h3>Magna sed ultrices</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<h3>About Jason Barr</h3>
+							<p>I built my first website in 1996, back in the dark days of the Microsoft/Netscape browser wars (and the <code>blink</code> tag &#x1f631;). After spending a few years as a stay-at-home dad, I'm now studying modern web development and computer science at <a href="https://lambdaschool.com" title="Lambda School" target="_blank">Lambda School</a> to bring myself up to speed with current techniques and frameworks.</p>
 						</div>
 					</section>
 					<section class="spotlight">
-						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+						<div class="image"><img src="images/me-with-daniel-3.jpg" alt="Me with Daniel, my now-5-year-old son, when he was 2" class="section-img" /></div>
 						<div class="content">
-							<h3>Ultrices nullam aliquam</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<h3>Daniel and I</h3>
+							<p>This is one of my favorite pictures. My friend <a href="https://www.facebook.com/david.guthrie" title="David Guthrie on Facebook" target="_blank">David Guthrie</a> took this photo at <a href="http://www.chicorycafe.net/" title="Chicory Cafe, in South Bend, Indiana" target="_blank">Chicory Cafe</a> in South Bend, Indiana when Daniel was 2.</p>
 						</div>
 					</section>
 					<section class="spotlight">
-						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+						<div class="image"><img src="images/code-on-laptop.jpg" alt="Code displayed on MacBook screen" class="section-img" /></div>
 						<div class="content">
-							<h3>Aliquam sed magna</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<h3>Projects</h3>
+							<p>Here are a few of my projects, including work from my time at Lambda School so far:</p>
+							<ul>
+								<li>"Great Idea" website (<a href="https://github.com/jasonsbarr/responsive-web-design-I/tree/Jason-Barr" target="_blank" title="GitHub repo">GitHub</a>) (<a href="https://jasonsbarr.github.io/responsive-web-design-I/" target="_blank" title="Live Demo">live demo</a>)</li>
+								<li>Easy HTTP JavaScript library, XMLHTTPRequest version (<a href="https://github.com/jasonsbarr/easy-http-ajax" target="_blank" title="GitHub repo">GitHub</a>)</li>
+								<li>Trellis Redis, an Ansible playbook to add Redis support to the Trellis development and deployment scaffold for WordPress (<a href="https://github.com/jasonsbarr/trellis-redis" target="_blank" title="GitHub repo">GitHub</a>)</li>
+							</ul>
 						</div>
+						<p class="caption">Photo by Clément H on Unsplash</p>
 					</section>
-					<section class="special">
+					<!-- <section class="special">
 						<ul class="icons labeled">
 							<li><span class="icon fa-camera-retro"><span class="label">Ipsum lorem accumsan</span></span></li>
 							<li><span class="icon fa-refresh"><span class="label">Sed vehicula elementum</span></span></li>
@@ -73,20 +103,18 @@
 							<li><span class="icon fa-code"><span class="label">Lorem nullam tempus</span></span></li>
 							<li><span class="icon fa-desktop"><span class="label">Adipiscing amet sapien</span></span></li>
 						</ul>
-					</section>
+					</section> -->
 				</div>
 			</section>
 
 		<!-- Three -->
 			<section id="three" class="wrapper style2 special">
 				<header class="major">
-					<h2>Magna leo sapien gravida</h2>
-					<p>Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula<br />
-					lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.</p>
+					<h2>Contact Me about Your Project</h2>
+					<p>If you're looking for a website or app for your business, I'll help you understand how best to communicate your needs to a designer/developer. After that, if it makes sense to both of us, we can continue working together. Otherwise, you'll have a specification and design brief you can take to another developer and make sure you get what you're looking for.</p>
 				</header>
 				<ul class="actions special">
-					<li><a href="#" class="button primary icon fa-download">Download</a></li>
-					<li><a href="#" class="button">Learn More</a></li>
+					<li><a href="mailto:jason@jasonsbarr.com" class="button primary icon fa-envelope">Contact Me</a></li>
 				</ul>
 			</section>
 
@@ -412,11 +440,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://facebook.com/jasonsbarr" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://twitter.com/jasonsbarr" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://github.com/jasonsbarr" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
 				</ul>
-				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
+				<p class="copyright">&copy; 2019 Jason Barr. Template credit: <a href="http://html5up.net">HTML5 UP</a></p>
 			</footer>
 
 		<!-- Scripts -->
